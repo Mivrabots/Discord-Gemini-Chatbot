@@ -1,8 +1,7 @@
 import os
-import dotenv
 
-dotenv.load_dotenv('.env')
-dotenv.load_dotenv('.env.development')
+
+
 
 GOOGLE_AI_KEY = os.getenv('GOOGLE_AI_KEY')
 DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
